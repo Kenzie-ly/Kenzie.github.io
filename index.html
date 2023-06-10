@@ -1,16 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    <h1>
-        Hello, github pages!
-    </h1>
-
-     
+    
+    <!-- navbar starts -->
+    <header>
+            <a href="/" class="logo"></i>Hello</a>
+    
+            <div id="menu" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+    <!-- navbar ends -->
+    
+    
+    <!-- hero section starts -->
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+    
+        <div class="content">
+        <h2>Hi There,<br/> I'm Kenzie <span>Ng</span></h2>
+        <p></p>
+        <a href="#about" class="btn"><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+            <ul class="social-icons">
+              <li><a class="github" aria-label="GitHub" href="https://github.com/Kenzie-ly/LearningFolder" target="_blank"><i class="fab fa-github"></i></a></li>
+              <li><a class="google" aria-label="Google" href="https://google.com/" target="_blank"><i class="fab fa-google"></i></a></li>
+              <li><a class="youtube" aria-label="Yutube" href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+              <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/ken.zie07"><i class="fab fa-instagram" target="_blank"></i></a></li>
+            </ul>
+          </div>
+        </div>
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/profile.png" alt="">
+    </div>
+    </section>
+    <!-- hero section ends -->
+    
+    
+    <!-- about section starts -->
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+        
+        <div class="row">
+    
+        <div class="image">
+            <img draggable="false" class="tilt" src="./assets/images/About.jpg" alt="">
+        </div>
+        <div class="content">
+            <h3>I'm Kenzie</h3>
+            <span class="tag">Web developer</span>
+            
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio ut culpa veniam? Eius dolor fugit harum soluta similique, ducimus corrupti veritatis ratione recusandae. Sint at ab voluptatem est mollitia autem minima quia veritatis, aliquid voluptatum, quisquam quasi eaque dicta optio! Corrupti excepturi distinctio corporis architecto, unde consequatur rerum ducimus non ex voluptate placeat aliquid dolorum, ad vel deleniti praesentium sed dignissimos nam? Rerum, eius. Reiciendis laudantium architecto alias corrupti repellendus quisquam odit quis rem sapiente, eveniet ex ducimus error aperiam officiis temporibus beatae voluptatibus culpa, excepturi odio iste impedit. Porro adipisci impedit error voluptate a distinctio commodi asperiores voluptatem nisi?
+            </p>
+            
+            <div class="box-container">
+                <div class="box">
+                  <p><span> email : </span> kenzienathanng@gmail.com</p>
+                  <p><span> place : </span> Palembang, Ilir barat 1</p>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    <!-- about section ends -->
+    
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      
+      <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+    
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact1.png" alt="">
+          </div>
+        <form id="contact-form">
+          
+          <div class="form-group">
+            <div class="field">
+              <input type="text" name="name" placeholder="Name" required>
+              <i class='fas fa-user'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="email" placeholder="Email" required>
+              <i class='fas fa-envelope'></i>
+            </div>
+            <div class="field">
+              <input type="text" name="phone" placeholder="Phone">
+              <i class='fas fa-phone-alt'></i>
+            </div>
+            <div class="message">
+            <textarea placeholder="Message" name="message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+            </div>
+            </div>
+          <div class="button-area">
+            <button type="submit">
+              Submit <i class="fa fa-paper-plane"></i></button>
+          </div>
+        </form>
+      </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+    
+    
+    <!-- footer section starts -->
+    <section class="footer">
+    
+      <div class="box-container">
+    
+          <div class="box">
+              <h3>Kenzie's Portfolio</h3>
+              <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising 🚀. Connect with me over live chat!</p>
+          </div>
+    
+          <div class="box">
+              <h3>quick links</h3>
+              <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+              <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+              <a href="#projects"><i class="fas fa-chevron-circle-right"></i> projects</a>
+          </div>
+    
+          <div class="box">
+              <h3>contact info</h3>
+              <p> <i class="fas fa-phone"></i>+62 XXX-XXX-XXXX</p>
+              <p> <i class="fas fa-envelope"></i>kenzienathanng@gmail.com</p>
+              <p> <i class="fas fa-map-marked-alt"></i>Palembang, Ilir Barat 1</p>
+              <div class="share">
+    
+                <li><a class="github" aria-label="GitHub" href="https://github.com/Kenzie-ly/LearningFolder" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a class="google" aria-label="Google" href="https://google.com/" target="_blank"><i class="fab fa-google"></i></a></li>
+                <li><a class="youtube" aria-label="Yutube" href="https://youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/ken.zie07"><i class="fab fa-instagram" target="_blank"></i></a></li>
+              </div>
+          </div>
+      </div>
+    
+      <h1 class="copyright">Copy Right</h1>
+    
+    </section>
+    
+    
 </body>
 </html>
